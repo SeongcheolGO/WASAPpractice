@@ -59,5 +59,12 @@ namespace NewNotebook
 
             info.Show();
         }
+
+        private void InfomationCorrection_Click(object sender, EventArgs e)
+        {
+            InfoCor info = new InfoCor();
+
+            info.Show();
+        }
     }
 }
